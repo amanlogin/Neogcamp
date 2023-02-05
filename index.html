@@ -36,6 +36,7 @@
     </div>
 
     <hr />
+
     <h3>@link</h3>
     <a class="link primary-link" href="/">Primary Link</a>
     <a class="link secondary-link" href="/">Secondary Link</a>
@@ -43,21 +44,22 @@
     <hr />
     <h2>@list</h2>
     <h3>Unordered list</h3>
-    <ul>
+    <p>This list will not have bullets</p>
+    <ul class="list-non-bullet">
       <li>Item One</li>
       <li>Item Two</li>
       <li>Item Three</li>
     </ul>
 
     <h3>Unordered inline list</h3>
-    <ul>
-      <li>Inline item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline item three</li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline item One</li>
+      <li class="list-item-inline">Inline Item Two</li>
+      <li class="list-item-inline">Inline item three</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
-    <ol>
+    <ol reversed>
       <li>milk</li>
       <li>egg</li>
       <li>Bread</li>
@@ -66,18 +68,20 @@
     <hr />
 
     <h2>@Nav</h2>
-    <div>I'm Brand</div>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/"> Product</a>
-      </li>
-      <li>
-        <a href="/">About</a>
-      </li>
-    </ul>
+    <nav class="navigation container">
+      <div class="nav-brand">I'm Brand</div>
+      <ul class="nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/"> Product</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">About</a>
+        </li>
+      </ul>
+    </nav>
 
     <h2>header</h2>
     <header>
