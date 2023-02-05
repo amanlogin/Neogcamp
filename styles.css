@@ -3,10 +3,12 @@
 :root {
   --primary-color: #a78bfa;
   --dark-gray: #4b5563;
+  --off-white: #e5e7eb;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0rem;
 }
 
 hr {
@@ -93,4 +95,30 @@ hr {
 
 .hero .hero-heading .heading-inverted {
   color: var(--primary-color);
+}
+
+/**Sections**/
+
+.section {
+  padding: 2rem;
+}
+.section h3 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/**Footer**/
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
 }
